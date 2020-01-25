@@ -38,20 +38,30 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
-- [ ] Mention two parts of Express that you learned about this week.
+- [x] Mention two parts of Express that you learned about this week.
 
-- [ ] Describe Middleware?
+Answer: express is a library for node, build RESTful web services that work with JSON.
 
-- [ ] Describe a Resource?
+- [x] Describe Middleware?
 
-- [ ] What can the API return to help clients know if a request was successful?
+Answer: We can think of middleware as array of functions that get executed in the order they are introduced into the server code.
 
-- [ ] How can we partition our application into sub-applications?
+- [x] Describe a Resource?
+
+Answer: A resource is the object that’s in the data.
+
+- [x] What can the API return to help clients know if a request was successful?
+
+Answer: A status code like a 200, or 201.
+
+- [x] How can we partition our application into sub-applications?
+
+Answer: Make routers into different folders.
 
 ## Minimum Viable Product
 
-- [ ] Configure an _npm script_ named _"server"_ that will execute your code using _nodemon_. Make _nodemon_ be a development time dependency only, it shouldn't be deployed to production.
-- [ ] Configure an _npm script_ named _"start"_ that will execute your code using _node_.
+- [x] Configure an _npm script_ named _"server"_ that will execute your code using _nodemon_. Make _nodemon_ be a development time dependency only, it shouldn't be deployed to production.
+- [x] Configure an _npm script_ named _"start"_ that will execute your code using _node_.
 
 Design and build the necessary endpoints to:
 
